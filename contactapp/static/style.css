@@ -1,12 +1,13 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
+    background-color: #D2D0BA;
 }
 
 .container {
     max-width: 528px;
     margin: 0 auto;
-    background-color: #1e2ede;
+    background-color: #0B4F6C;
     min-height: 100vh;
 }
 
@@ -14,7 +15,7 @@ body {
     display: flex;
     justify-content: space-evenly;
     color: #ffff;
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(35, 61, 77) 35%, rgba(0,212,255,1) 100%);
     padding: 2rem 0;
     align-items: center;
 }
@@ -70,7 +71,7 @@ hr {
 }
 
 .contact-section:hover {
-    background-color: red;
+    background-color: #49C6E5;
 }
 
 .text {
