@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="../static/style-profile.css">
+    <link rel="stylesheet" type="text/css" href="../static/style-edit.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <!-- font awesome -->
     <script src="https://kit.fontawesome.com/5f8fbb8210.js" crossorigin="anonymous"></script> 
-    <title>Contact Profile</title>
+    <title>Edith Contact</title>
 </head>
 <body>
     <div class="container">
         <header class="hero">
-            <a href="index.html">
+            <a href="contactsProfile.html">
                 <i class="fas fa-arrow-circle-left back-btn icon-gradient"></i>
             </a>
             <div class="hero-info">
@@ -25,32 +25,40 @@
         <section class="contact-info">
             <div class="info-line">
                 <i class="fas fa-phone icon-gradient"></i>
-                <p class="phone-number">1234567890</p>
+                <input type="text" class="type" name="full name" placeholder="Full name">
             </div>
 
             <div class="info-line">
                 <i class="fas fa-sms text icon-gradient"></i>
-                <p class="sms">Send Message</p>
+                <input type="text" class="type" name="relationship" placeholder="Relationship">
             </div>
 
             <div class="info-line">
                 <i class="far fa-envelope icon-gradient"></i>
-                <p class="email">JohnDoe@info.com</p>
+                <input type="text" class="type" name="email" placeholder="E-mail">
             </div>
 
             <div class="info-line">
                 <i id="location" class="fas fa-map-marker-alt icon-gradient"></i>
-                <p class="address">Samuel street, 4th Avenue</p>
+                <input type="text" class="type" name="address" placeholder="Address">
             </div>
         </section>
 
-        <a href="editPage.html">
-            <section class="edit-contact">
-                <div class="edit-button">
-                    <i class="fas fa-user-cog icon-gradient"></i>
+        <section class="button-container">
+            <a href="#">
+                <div class="update-contact">
+                    <i class="fas fa-check"></i>
+                    <button class="button">Save Contact</button>
                 </div>
-            </section>
-        </a>
-    </div>
+            </a>
+        </section>
+        <section class="button-container">
+            <a href="#">
+                <div class="update-contact">
+                    <i class="fas fa-trash"></i>
+                    <button class="button">Delete Contact</button>
+                </div>
+            </a>
+        </section>
 </body>
 </html>
